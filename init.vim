@@ -5,13 +5,15 @@ set clipboard=unnamed           " Habilita el uso del portapapeles
 syntax enable                   " Habilita el uso del resaltado de sintaxis
 set showcmd                     " Muestra los últimos comando usados
 set ruler                       " Muestra la fila y columna en la que está el cursor
+set cursorline                  " Marca la fila en la que está el cursor
 set encoding=utf-8              " Define la codificación de los archivos
 set showmatch                   " Resalta los ()[]{} que coinciden
 set sw=2                        " Identación a 2 espacios
 set expandtab                   " Cambia los tabuladores a dos espacios
 set laststatus=2                " Hace la barra de estado siempre visible
 set noshowmode                  " Oculta el modo en el que está nvim
-
+set termguicolors               " Habilita colores de 24bits
+highlight Normal ctermbg=NONE   " Trabaja con termguicolors
 setlocal spell spelllang=es     " Habilita el inspector de ortografía
 
 " Los archivos de configuración adicionales
