@@ -1,6 +1,8 @@
 let g:gruvbox_italic=1
+let g:gruvbox_bold=1
+let g:gruvbox_contrast_dark = 'medium'
 colorscheme gruvbox
-let g:guvbox_contast_dark = "hard"
+
 let NERDTreeQuitOnOpen=1
 let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-emmet', 'coc-tsserver','coc-json', 'coc-prettier', 'coc-pyright']
 " ARILINE

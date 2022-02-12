@@ -3,6 +3,10 @@ call plug#begin(stdpath('data') . '/plugged')
 " Temas
 Plug 'morhetz/gruvbox'
 
+" Syntaxis
+Plug 'sheerun/vim-polyglot'
+Plug 'norcalli/nvim-colorizer.lua'
+
 " Barra de estado
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
