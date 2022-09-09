@@ -2,6 +2,7 @@ call plug#begin(stdpath('data') . '/plugged')
 
 " Temas
 Plug 'morhetz/gruvbox'
+Plug 'joshdick/onedark.vim'
 
 " Syntaxis
 Plug 'sheerun/vim-polyglot'
