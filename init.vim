@@ -14,8 +14,8 @@ set laststatus=2                " Hace la barra de estado siempre visible
 set noshowmode                  " Oculta el modo en el que está nvim
 set termguicolors               " Habilita colores de 24bits
 highlight Normal ctermbg=NONE   " Trabaja con termguicolors
-setlocal spell spelllang=es     " Habilita el inspector de ortografía
-
+setlocal spell spelllang=es,en     " Habilita el inspector de ortografía
+set nocompatible                " Para que funcione Polyglot
 " Los archivos de configuración adicionales
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugins-config.vim

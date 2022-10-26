@@ -1,8 +1,11 @@
 call plug#begin(stdpath('data') . '/plugged')
 
 " Temas
-Plug 'morhetz/gruvbox'
-Plug 'joshdick/onedark.vim'
+"Plug 'morhetz/gruvbox'
+"Plug 'joshdick/onedark.vim'
+"Plug 'navarasu/onedark.nvim'
+Plug 'sainnhe/sonokai'
+Plug 'sainnhe/edge'
 
 " Syntaxis
 Plug 'sheerun/vim-polyglot'
@@ -27,6 +30,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 " - emmet
 Plug 'mattn/emmet-vim'
+" - formateador Black para Python
+Plug 'psf/black', { 'branch': 'stable' }
 
 call plug#end()
 
