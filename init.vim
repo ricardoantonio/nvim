@@ -16,8 +16,11 @@ set termguicolors               " Habilita colores de 24bits
 highlight Normal ctermbg=NONE   " Trabaja con termguicolors
 setlocal spell spelllang=es,en     " Habilita el inspector de ortografía
 set nocompatible                " Para que funcione Polyglot
+set cmdheight=2                 " Para el alto de la linea de comandos
+
 " Los archivos de configuración adicionales
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugins-config.vim
 so ~/.config/nvim/coc-config.vim
 so ~/.config/nvim/maps.vim
+

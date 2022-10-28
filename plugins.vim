@@ -10,6 +10,7 @@ Plug 'sainnhe/edge'
 " Syntaxis
 Plug 'sheerun/vim-polyglot'
 Plug 'norcalli/nvim-colorizer.lua'
+Plug 'Yggdroot/indentLine'
 
 " Barra de estado
 Plug 'vim-airline/vim-airline'
@@ -21,11 +22,12 @@ Plug 'easymotion/vim-easymotion'
 " - Para tener el árbol de directorios
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " _ Para navegar entre archivos abiertos
 Plug 'christoomey/vim-tmux-navigator'
 " - Autocompletado
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'preservim/nerdcommenter'
 " - Integracion Git
 Plug 'tpope/vim-fugitive'
 " - emmet
