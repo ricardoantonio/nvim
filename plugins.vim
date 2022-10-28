@@ -34,6 +34,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'mattn/emmet-vim'
 " - formateador Black para Python
 Plug 'psf/black', { 'branch': 'stable' }
+" - Buscardor
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 
 call plug#end()
 
