@@ -30,6 +30,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdcommenter'
 " - Integracion Git
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 " - emmet
 Plug 'mattn/emmet-vim'
 " - formateador Black para Python
