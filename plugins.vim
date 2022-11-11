@@ -4,8 +4,9 @@ call plug#begin(stdpath('data') . '/plugged')
 "Plug 'morhetz/gruvbox'
 "Plug 'joshdick/onedark.vim'
 "Plug 'navarasu/onedark.nvim'
-Plug 'sainnhe/sonokai'
-Plug 'sainnhe/edge'
+"Plug 'sainnhe/sonokai'
+"Plug 'sainnhe/edge'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Syntaxis
 Plug 'sheerun/vim-polyglot'
