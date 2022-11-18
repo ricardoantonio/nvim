@@ -10,7 +10,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Syntaxis
 Plug 'sheerun/vim-polyglot'
-Plug 'norcalli/nvim-colorizer.lua'
+Plug 'ap/vim-css-color'
 Plug 'Yggdroot/indentLine'
 
 " Barra de estado
