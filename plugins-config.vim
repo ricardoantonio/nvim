@@ -1,6 +1,6 @@
 colorscheme dracula
 let NERDTreeQuitOnOpen=1
-let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-emmet', 'coc-tsserver','coc-json', 'coc-prettier', 'coc-pyright', 'coc-pairs', 'coc-texlab']
+let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-emmet', 'coc-tsserver','coc-json', 'coc-prettier', 'coc-pyright', 'coc-pairs', 'coc-texlab', 'coc-java']
 
 "indentLine
 let g:indentLine_fileTypeExclude = ['markdown']
