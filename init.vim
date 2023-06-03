@@ -18,6 +18,9 @@ setlocal spell spelllang=es,en     " Habilita el inspector de ortografía
 set nocompatible                " Para que funcione Polyglot
 set cmdheight=2                 " Para el alto de la linea de comandos
 
+language es_ES
+let $LANG='es_ES.UTF-8'
+
 " Los archivos de configuración adicionales
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugins-config.vim
